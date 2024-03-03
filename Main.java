@@ -25,13 +25,13 @@ public class Main {
 
 			int option = sc.nextInt();
 			sc.nextLine();
-			Cases(StdManagement, sc, option);
+			SwitchCases(StdManagement, sc, option);
 
 		}
 
 	}
 
-	public static void Cases(Student_ManagementSystem StdManagement, Scanner scanner, int option) {
+	public static void SwitchCases(Student_ManagementSystem StdManagement, Scanner scanner, int option) {
 		switch (option) {
 		case 1:
 			// take user manual inputs
