@@ -18,7 +18,7 @@ public class Main {
 			System.out.println("Student Management System:\r\n"
 					+ "1.Add Student\r\n"
 					+ "2.Update Student\r\n"
-					+ "3.Delete Student:\r\n"
+					+ "3.Delete Student\r\n"
 					+ "4.Show Students Details\r\n"
 					+ "5.Exit ....!\r\n"
 					+ "Choose Valid Option:");
