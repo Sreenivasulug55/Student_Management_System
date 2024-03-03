@@ -15,13 +15,13 @@ public class Main {
 		// the loop is executed infinite because we perform continus Operations
 		// if we want to terminate the loop choose the option 5 it terminate
 		while (true) {
-			System.out.println("Student Management System:");
-			System.out.println("1.Add Student");
-			System.out.println("2.Update Student");
-			System.out.println("3.Delete Student:");
-			System.out.println("4.Show Students Details");
-			System.out.println("5.Exit ....!");
-			System.out.println("Choose Valid Option:");
+			System.out.println("Student Management System:\r\n"
+					+ "1.Add Student\r\n"
+					+ "2.Update Student\r\n"
+					+ "3.Delete Student:\r\n"
+					+ "4.Show Students Details\r\n"
+					+ "5.Exit ....!\r\n"
+					+ "Choose Valid Option:");
 
 			int option = sc.nextInt();
 			sc.nextLine();
